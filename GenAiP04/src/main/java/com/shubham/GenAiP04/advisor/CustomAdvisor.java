@@ -17,6 +17,7 @@ public class CustomAdvisor  implements BaseAdvisor {
                 .build();
     }
 
+    //chatResponse – The response returned by the AI model
     @Override
     public ChatClientResponse after(ChatClientResponse chatClientResponse, AdvisorChain advisorChain) {
 
